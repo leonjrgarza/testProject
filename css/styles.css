@@ -36,15 +36,19 @@ body
 #container #post
 {
     margin: 0 1rem;
+    padding-bottom: 20px;
 }
 #container h1
 {
     font-size: 20px;
 }
 .btn_github {
-    width: fit-content;
-    height: fit-content;
-    border-radius: 5px;
-    background-color: green;
-    color: #ddd;
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #3A3;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
 }
