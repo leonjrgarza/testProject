@@ -19,9 +19,22 @@ body
 }
 #header #tagline
 {
+    display: inline-flex;
     padding: 0 0 0 0.5rem;
     font-weight: normal;
     font-size: 0.8rem;
+}
+#textHeader {
+    padding-left: 6em;
+}
+#logo {
+    width: 4em;
+    height: 4em;
+    padding-bottom: -1em;
+}
+#imgLogo {
+    width: 100%;
+    height: 100%;
 }
 #container
 {
