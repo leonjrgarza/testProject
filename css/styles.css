@@ -55,15 +55,14 @@ body
 {
     font-size: 20px;
 }
-.btn_github {
-    border: 1px solid #333;
-    padding: 10px;
+.button {
+    padding: 10px 20px;
     background-color: #3A3;
+    border-radius: 5px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 50px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 #footer {
     position: relative;
