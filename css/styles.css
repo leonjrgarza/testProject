@@ -72,3 +72,14 @@ footer
     background-color: #333;
     color: #fff;
 }
+.footer_title
+{
+    display: inline;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.footer_text
+{
+    display: inline;
+    font-size: 0.8rem;
+}
