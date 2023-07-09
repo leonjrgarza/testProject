@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: papayawhip;
+}
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  height: auto;
+}
+.item {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: solid;
+  font-size: large;
+  width: 100%;
+  height: 30px;
+  background: lightseagreen;
+  color: papayawhip;
+  padding: 0 1rem;
+}
+.item:hover {
+  background: limegreen;
+  color: white;
+}
+
+/*
+Usa este código para pintar impares
+.container .item:nth-child(2n + 1) { ... }
+*/
