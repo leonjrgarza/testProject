@@ -7,6 +7,11 @@ body
     margin: 0;
     padding: 0;
 }
+.page-container
+{
+    max-width: 1400px;
+    display: block;
+}
 .site-header
 {
     padding: 0.5rem;
@@ -37,25 +42,25 @@ body
     display: inline;
     font-size: 1.2rem;
 }
-.container
+.main-container
 {
-    margin: 10px 20px;
+    padding: 10px 20px;
+    margin: 10px auto;
     width: 70%;
-    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
     border-radius: 16px;
-    margin: 0 auto;
 }
 .post
 {
-    margin: 0 1rem;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 .button
 {
     padding: 10px 20px;
     border-radius: 5px;
+    margin-right: 1rem;
     background-color: #3A3;
     color: #fff;
     text-decoration: none;
