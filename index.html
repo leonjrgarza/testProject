@@ -6,8 +6,47 @@
     <title>index</title>
 </head>
 <body>
-    <h1>Proyectos</h1>
-    <br>
-    <a href="hyperblog.html">Hyperblog</a>
+    <!--
+        <br>
+        <a href="hyperblog.html">Hyperblog</a>
+        <a href="pseudo.html">Pseudo</a>
+    -->
+    <style>
+        body {
+            margin: 0;
+            background: papayawhip;
+        }
+        .container {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            /*align-items: center;*/
+            height: auto;
+        }
+        .item {
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: solid;
+            font-size: large;
+            width: 100%;
+            height: 30px;
+            background: lightseagreen;
+            color: papayawhip;
+            padding: 0 1rem;
+        }
+        .item:hover {
+            background: limegreen;
+            color: white;
+        }
+        /* Usa este código para pintar impares
+        .container .item:nth-child(2n + 1) {
+            background: whitesmoke;
+        }*/
+    </style>
+    <div class="container">
+        <a href="hyperblog.html" class="item">Hyperblog</a>
+        <a href="pseudo.html" class="item">Pseudo</a>
+        <div class="item">Proyect x</div>
+        <div class="item">Proyect x</div>
+    </div>
 </body>
 </html>

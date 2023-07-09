@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            background-color: papayawhip;
+        }
+        p::before {
+            content: "~";
+        }
+        p::first-letter {
+            color: teal;
+        }
+        div p {
+            color: palevioletred;
+        }
+        div p:nth-child(3) {
+            color: violet;
+        }
+        div p:hover {
+            color: rebeccapurple;
+        }
+        ::placeholder {
+            color: tomato;
+        }
+    </style>
+    <div>
+        <p>Hola</p>
+        <p>mundo</p>
+        <p>Practica</p>
+        <p>Pseudoclases</p>
+        <p>Pseudoelementos</p>
+        <input type="text" placeholder="name">
+    </div>
+</body>
+</html>
