@@ -1,6 +1,18 @@
+:root {
+    --color-rojo-rubi: #E0115F;
+    --color-azul-zafiro: #2E8B57;
+    --color-verde-esmeralda: #008B00;
+    --color-gris-claro: lightgray;
+    --color-gris-oscuro: #333;
+    --color-gris-sombra: #ddd;
+    --color-blanco: #fff;
+    --color-azul-indigo-oscuro: #062863;
+    --color-azul-indigo-claro: #1c4c96;
+}
+
 body
 {
-    color: #333;
+    color: var(--color-gris-oscuro);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -14,8 +26,8 @@ body
 .site-header
 {
     padding: 0.5rem;
-    background-color: #0e6ea6;
-    color: #fff;
+    background-color: var(--color-azul-indigo-oscuro);
+    color: var(--color-blanco);
     text-decoration: none;
 }
 .site-header-inner
@@ -47,7 +59,7 @@ body
     margin: 10px auto;
     width: 70%;
     text-align: left;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-gris-sombra);
     border-radius: 16px;
 }
 .post
@@ -60,8 +72,8 @@ body
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 1rem;
-    background-color: #3A3;
-    color: #fff;
+    background-color: var(--color-azul-indigo-claro);
+    color: var(--color-blanco);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -73,8 +85,8 @@ footer
     font-size: 1rem;
     text-align: center;
     padding: 0.5rem;
-    background-color: #0e6ea6;
-    color: #fff;
+    background-color: var(--color-gris-oscuro);
+    color: var(--color-gris-claro);
 }
 .footer_title
 {
@@ -86,4 +98,35 @@ footer
 {
     display: inline;
     font-size: 0.8rem;
+}
+
+/* AGREGADOS POR CHAT GPT */
+
+article {
+    background-color: var(--color-gris-claro);
+    border: 12px solid var(--color-rojo-rubi); /* Borde grueso y verde esmeralda */
+    font-family: Arial, sans-serif;
+    color: var(--color-gris-oscuro); /* Color de fuente rojo rubí */
+    border-radius: 25px 0 0 25px; /* Redondeado en esquina superior-izquierda */
+}
+
+article::before,
+article::after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: var(--color-verde-esmeralda); /* Color del borde verde esmeralda */
+}
+
+article::before {
+    border-top-left-radius: 25px; /* Redondeado en esquina superior-izquierda */
+    border-bottom-left-radius: 25px; /* Redondeado en esquina inferior-izquierda */
+    border-right: none; /* Sin borde en el lado derecho */
+}
+
+article::after {
+    border-top-right-radius: 25px; /* Redondeado en esquina superior-derecha */
+    border-bottom-right-radius: 25px; /* Redondeado en esquina inferior-derecha */
+    border-left: none; /* Sin borde en el lado izquierdo */
 }
